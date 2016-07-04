@@ -1,7 +1,5 @@
 # MissingMoney
 
-Thesis Repository
+Søren Thomsen' thesis repository
 
-Søren Thomsen
-
-Python
+Data and code will be updated and uploaded 
