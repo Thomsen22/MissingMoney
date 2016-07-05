@@ -1,0 +1,13 @@
+ID,name,country,origin,latitude,longitude,status,primaryfuel,secondaryfuel,capacity,lincost,cyclecost,minuptime,mindowntime,minonlinecapacity,rampingup,rampingdown,fixedomcost,varomcost,levcapcost,capacityold,lincostold,age
+g18,g18,Z3,n18,1,1,Online,Nuclear,None,400,10,1000,8,8,100,0.33,0.33,122936,0,0.3,400,10,old
+g21,g21,Z3,n21,1,1,Online,Nuclear,None,400,10,1000,8,8,100,0.33,0.33,122936,0,0.3,400,10,old
+g1,g1,Z1,n1,1,1,Online,Coal,None,300,35,800,5,5,100,0.4,0.4,61301,2.1,0.12,300,35,old
+g2,g2,Z1,n2,1,1,Online,Coal,None,300,35,800,5,5,100,0.4,0.4,61301,2.1,0.12,300,35,old
+g15b,g15b,Z3,n15,1,1,Online,Coal,None,300,35,800,5,5,100,0.4,0.4,61301,2.1,0.12,300,35,old
+g16,g16,Z3,n16,1,1,Online,Gas,None,250,50,500,2,2,75,0.5,0.5,32151,2.7,0.06,250,50,old
+g23a,g23a,Z3,n23,1,1,Online,Gas,None,250,50,500,2,2,75,0.5,0.5,32151,2.7,0.06,250,50,old
+g23b,g23b,Z3,n23,1,1,Online,Gas,None,30,72,80,1,1,5,1,1,0,3.6,0.04,30,72,old
+g7,g7,Z2,n7,1,1,Online,Gas,None,30,72,80,1,1,5,1,1,0,3.6,0.04,30,72,old
+g13,g13,Z2,n13,1,1,Online,Oil,None,30,110,75,1,1,10,1,1,32151,2.7,0.06,30,110,old
+g15a,g15a,Z3,n15,1,1,Online,Oil,None,30,110,75,1,1,10,1,1,32151,2.7,0.06,30,110,old
+g22,g22,Z3,n22,1,1,Online,Hydro,None,300,0,0,0,0,300,1,1,14520,5.8,0.16,300,0,old
