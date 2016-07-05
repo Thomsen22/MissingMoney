@@ -23,7 +23,7 @@ def windprod():
     
     return windprodwestdf
     
-def solarprod(): # Solarprofile determined by scaled DK-East wind production
+def solarprod():
     
     solarprodwest = pd.read_csv('solar_prod.csv').set_index('time')
     
