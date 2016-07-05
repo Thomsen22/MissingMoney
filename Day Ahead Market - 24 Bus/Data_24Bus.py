@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jan 25 09:00:51 2016
-
-@author: Søren
-"""
 import pandas as pd
 import numpy as np
 import networkx as nx
@@ -29,7 +23,7 @@ def windprod():
     
     return windprodwestdf
     
-def solarprod(): # Solarprofile determined by scaled DK-East wind production
+def solarprod():
     
     solarprodwest = pd.read_csv('solar_prod.csv').set_index('time')
     
