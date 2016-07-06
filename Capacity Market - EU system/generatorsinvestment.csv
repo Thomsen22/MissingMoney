@@ -1,0 +1,8 @@
+ID,name,country,origin,latitude,longitude,status,primaryfuel,secondaryfuel,capacity,lincost,cyclecost,minuptime,mindowntime,minonlinecapacity,rampingup,rampingdown,fixedomcost,varomcost,levcapcost,capacityold,lincostold,age
+BrokdorfNuclearPowerPlantGermany,BrokdorfNuclearPowerPlantGermany,DEU,n783,53.85090974,9.344844267,Online,Nuclear,Unknown,1440,11.24121027,432000,24,24,288,0.33,0.33,122936,0,0.3,1440,11.24121027,old
+Scholven(Gelsenkirchen)CoalPowerPlantGermany,Scholven(Gelsenkirchen)CoalPowerPlantGermany,DEU,n872,51.60239919,7.0063591,Online,Coal,Unknown,2216,37.17884419,144040,8,8,443.2,0.4,0.4,61301,2.1,0.12,2216,37.17884419,old
+Irsching4(UlrichHartmann)CCGTPowerPlantGermany,Irsching4(UlrichHartmann)CCGTPowerPlantGermany,DEU,n950,48.767,11.581,Online,Gas,Unknown,550,55.73439319,30250,2,4,220,1,1,32151,2.7,0.06,550,55.73439319,old
+WilmersdorfCHPPowerPlantGermany,WilmersdorfCHPPowerPlantGermany,DEU,n808,52.4816,13.3078,Online,Oil,Unknown,330,113.5356158,18150,2,4,132,1,1,32151,2.7,0.06,330,113.5356158,old
+RönkhausenPumpedStoragePowerPlantGermany,RönkhausenPumpedStoragePowerPlantGermany,DEU,n883,51.2247,7.9934,Online,Hydro,Unknown,140,6.726715081,602,0,0,14,1,1,14520,5.8,0.16,140,6.726715081,old
+GorzowCHPPowerPlantPoland,GorzowCHPPowerPlantPoland,POL,n1104,52.7496,15.2687,Online,Gas,Unknown,97.5,51.26114743,5362.5,2,4,39,1,1,0,3.6,0.04,97.5,51.26114743,old
+ThermieSerresCHPPowerPlantGreece,ThermieSerresCHPPowerPlantGreece,GRC,n1274,41.0634,23.5184,Online,Gas,Unknown,16,52.65683529,880,2,4,6.4,1,1,0,7.5,0.09,16,52.65683529,old
