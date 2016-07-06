@@ -1,8 +1,6 @@
-# MissingMoney
+"Revenue Adequacy and the Missing Money Problem in Highly Renewable Electricity Systems"
 
 Thesis repository for Søren Thomsen
-
-"Revenue Adequacy and the Missing Money Problem in Highly Renewable Electricity Systems"
 
 The code to undertake the simulations presented in the Master Thesis is uploaded
 
@@ -10,3 +8,8 @@ There is placed a "README.txt" within each map, which describes how to undertake
 
 The code can be run in Python3.0 and higher
 
+Summary from the master thesis:
+
+With increasing production from variable renewable energy sources (VRES), the conven -tional generation technologies, including nuclear-, coal- and gas-plants, will experience fewer operational hours and at lower prices, when they do produce. Thus, their revenue from sales of energy will be reduced substantially, at which their fixed operational costs no longer can be covered. This is the \textit{missing money problem}. Unless actions are taken to supplement the revenue from sales of energy, it is expected that the power plants will be gradually shut down. However, the power plants are still needed for periods of low production from VRES. The estimation of the power plants missing money requires knowledge on their cost structure, as well as their revenue from sales of energy. In this project an assessment of generators operational costs is undertaken. Furthermore, a market model is setup to evaluate the missing money problem under increased production from VRES. The analysis is conducted on a small test-scale model, as well as a model of the European electric system. The analysis of the energy market simulation on both models shows that, with increased VRES production, the conventional generators will not be able to cover all their fixed costs. Especially, the former base load plants, nuclear and coal, will experience greater challenges to cover their fixed costs. To avoid shut down of power plants, still needed to maintain a high security of supply margin, three different capacity support mechanisms are investigated. These include a peak load reserve, a capacity market and a premium payment to selected power plant types per produced unit of energy.
+
+The analysis of the capacity support mechanisms showed the following. A strategic reserve can advantageously be used at increasing wind penetration levels, by increasing the activation price and the size of the strategic reserve. By aligning the number of activations and its activation prize, with estimates on fixed costs of power plants operating on market terms, the amount of missing money in the entire system can be reduced. The capacity market can resolve the missing money problem completely, by compensating the required amount of reserves. With increased production from VRES, the capacity payments will increase. At a wind penetration level of around 55 \% and above, the payments for capacity will be higher than energy. The base load plants will due to their high fixed costs become price setters in the capacity market at increase VRES penetration. Introducing a capacity market in highly renewable energy systems, it can be expected, that nuclear and coal plants will be replaced by gas plants with lower fixed operational costs. The premium payment to selected power plants covering their missing money showed that, the missing money in the system will not be reduced. At high wind penetration levels, the premium receiving power plants can undercut wind energy, leading to higher total consumer payments.          
