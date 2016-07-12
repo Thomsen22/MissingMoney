@@ -56,6 +56,8 @@ Results displayed:
 - df_generators dataframe showing information on generators
 - Gen_dataframe sowing information on generators after the code is executed
 
+Cost estimates on generators:
 
+- The cost estimates can be found in the report. However, gas generators have following costs: Below 30 MW a cost estimate on GCT is used, between 30 MW and 100 MW a SCGT cost estimate is used, and above 100 MW a CCGT cost estimate.
 
 
