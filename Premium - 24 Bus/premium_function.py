@@ -137,7 +137,7 @@ def missingmoney(timeperiod, bidtype):
     df_generators = pd.read_csv('generators.csv').set_index('ID')
     generators = df_generators.index
     
-    if timeperiod == 'Weak':
+    if timeperiod == 'Week':
         period = 52
     elif timeperiod == 'Year':
         period = 1
@@ -278,7 +278,7 @@ def plantinvestment(df_price_DA, zones, gens_for_zones, timeperiod, df_capacityr
     extragen = len(df_generators) - 12 
     nnodes = len(df_nodes) 
     
-    if timeperiod == 'Weak':
+    if timeperiod == 'Week':
         period = 52
     elif timeperiod == 'Year':
         period = 1
