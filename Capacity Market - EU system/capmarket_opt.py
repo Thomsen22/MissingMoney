@@ -306,7 +306,7 @@ def plantinvestment(df_price_DA, df_price, zones, gens_for_zones, timeperiod, df
     extragen = len(df_generators) # Started with 12 generators
     nnodes = len(df_nodes) 
     
-    if timeperiod == 'Weak':
+    if timeperiod == 'Week':
         period = 52
     elif timeperiod == 'Year':
         period = 1
