@@ -26,7 +26,7 @@ class PLRclass:
         self.model.optimize()
         
     def _load_data(self):
-        self.data.timeperiod = 'Weak'
+        self.data.timeperiod = 'Week'
         self.data.bidtype = 'Fixed' 
         self.data.approach = 'Approach1' # Energinet = Approach1, New = Approach2
         self.data.reservemargin = 1.15 
