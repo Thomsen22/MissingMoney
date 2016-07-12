@@ -49,7 +49,7 @@ class CapacityMarket:
         windturbines = self.data.windturbines
         zones = self.data.zones        
              
-        if self.data.timeperiod == 'Weak':
+        if self.data.timeperiod == 'Week':
             self.data.period = 52
         elif self.data.timeperiod == 'Year':
             self.data.period = 1
