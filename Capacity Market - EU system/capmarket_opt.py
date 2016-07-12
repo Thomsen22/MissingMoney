@@ -168,7 +168,7 @@ def missingmoney(timeperiod, bidtype):
     df_cost['S/Ucost'] = df_cost['S/Ucost'].convert_objects(convert_numeric=True)
     generators = df_generators.index
     
-    if timeperiod == 'Weak':
+    if timeperiod == 'Week':
         period = 52
     elif timeperiod == 'Year':
         period = 1
