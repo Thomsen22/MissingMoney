@@ -35,7 +35,7 @@ class CapacityMarket:
         self.data.nodes = self.data.network.nodes()
         self.data.country = nx.get_node_attributes(self.data.network, 'country')
         self.data.times = np.arange(len(self.data.consumption.index))
-        self.data.timeperiod = 'Weak'
+        self.data.timeperiod = 'Week'
         self.data.BidType = 'Fixed'
         self.data.reservemargin = 1.15
         self.data.windreserve = 0.06
@@ -51,7 +51,7 @@ class CapacityMarket:
         windturbines = self.data.windturbines
         zones = self.data.zones        
              
-        if self.data.timeperiod == 'Weak':
+        if self.data.timeperiod == 'Week':
             self.data.period = 52
         elif self.data.timeperiod == 'Year':
             self.data.period = 1
