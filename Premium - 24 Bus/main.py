@@ -1,6 +1,6 @@
 import premium_function as pf
 
-timeperiod = 'Weak'
+timeperiod = 'Week'
 bidtype = 'Fixed'
 newpremium = 'yes'
 reservemargin = 1.15
