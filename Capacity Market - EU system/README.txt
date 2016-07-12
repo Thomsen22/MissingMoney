@@ -44,7 +44,9 @@ How to adjust parameters in the simulations:
 - The price-cap in the day-ahead market can be adjusted in "dayahead_optclass" under self.data.VoLL 
 - The reserve margin can be adjusted in capmarket_optclass under self.data.reservemargin
 
+Cost estimates on generators:
 
+- The cost estimates can be found in the report. However, gas generators have following costs: Below 30 MW a cost estimate on GCT is used, between 30 MW and 100 MW a SCGT cost estimate is used, and above 100 MW a CCGT cost estimate.
 
 
 
