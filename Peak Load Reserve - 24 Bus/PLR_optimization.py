@@ -10,7 +10,7 @@ def PLR(timeperiod, approach):
     df_cost_PLR = pd.read_csv('revenue_cost_gen_PLR.csv').set_index('Generator')
     df_generators = pd.read_csv('generators.csv').set_index('ID')
     
-    if timeperiod == 'Weak':
+    if timeperiod == 'Week':
         period = 52
     elif timeperiod == 'Year':
         period = 1
@@ -152,7 +152,7 @@ def plantinvestment(df_price, timeperiod, zones, systemreserve):
     extragen = len(df_generators) - 12
     nnodes = len(df_nodes) 
    
-    if timeperiod == 'Weak':
+    if timeperiod == 'Week':
         period = 52
     elif timeperiod == 'Year':
         period = 1
@@ -344,7 +344,7 @@ def missingmoneyPLR(timeperiod):
     df_cost = pd.read_csv('revenue_cost_gen_PLR.csv').set_index('Generator')
     generators = df_cost.index   
     
-    if timeperiod == 'Weak':
+    if timeperiod == 'Week':
         period = 52
     elif timeperiod == 'Year':
         period = 1
