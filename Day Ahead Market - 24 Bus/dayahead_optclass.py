@@ -13,7 +13,7 @@ from collections import defaultdict
 import pandas as pd
 import math
 # Own modules
-import data_24bus as data
+import Data_24Bus as data
 
 # This class makes the DA market clearing using zonal prices (ED model)
 
